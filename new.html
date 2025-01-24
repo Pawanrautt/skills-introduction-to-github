@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f3;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2em;
+            color: #333;
+        }
+        .frame {
+            display: flex;
+            gap: 15px;
+        }
+        .btn {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #e0e0e0;
+            box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-10px);
+            box-shadow: 10px 10px 20px #c9c9c9, -10px -10px 20px #ffffff;
+        }
+        .btn:active {
+            transform: translateY(5px);
+            box-shadow: 4px 4px 8px #d1d1d1, -4px -4px 8px #ffffff;
+        }
+        .btn i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Neumorphic Social Share Buttons</h1>
+    <div class="frame">
+        <a href="https://www.facebook.com/" class="btn">
+            <i class="fab fa-facebook-f" style="color: #3b5998;"></i>
+        </a>
+        <a href="https://x.com/?lang=en" class="btn">
+            <i class="fab fa-twitter" style="color: #00acee;"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-dribbble" style="color: #ea4c89;"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-linkedin-in" style="color:#0e76a8;"></i>
+            <a href="https://www.youtube.com/@Pawanraut17" class="btn">
+                <i class="fab fa-youtube" style="color:#e8223c;"></i>
+            </a>
+        </a>
+        <a href="#" class="btn">
+            <i class="fab fa-get-pocket" style="color:#ee4056;"></i>
+        </a>
+        <a href="#" class="btn">
+            <i class="far fa-envelope"></i>
+        </a>
+    </div>
+</body>
+</html>
